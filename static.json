@@ -36,14 +36,20 @@
           "index": "c82ec034-ba04-4119-bbaa-a4798a859723",
           "facets": [
             {
-              "name": "Tags",
-              "field_name": "tags",
+              "name": "Title",
+              "field_name": "Title",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Region",
-              "field_name": "region",
+              "name": "Authors",
+              "field_name": "Authors",
+              "type": "terms",
+              "size": 10
+            },
+            {
+              "name": "Abstract",
+              "field_name": "Abstract",
               "type": "terms",
               "size": 10
             }
