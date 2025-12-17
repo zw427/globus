@@ -18,15 +18,15 @@
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
+          "heading": "entries[0].content.Title",
           "fields": [
             {
-              "label": "Tags",
-              "property": "entries[0].content.tags"
+              "label": "Authors",
+              "property": "entries[0].content.Authors"
             },
             {
-              "label": "Region",
-              "property": "entries[0].content.region"
+              "label": "Abstract",
+              "property": "entries[0].content.Abstract"
             }
           ]
         }
